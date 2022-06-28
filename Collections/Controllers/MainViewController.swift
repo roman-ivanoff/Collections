@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
     let setId = "setsId"
     let arrayId = "arraysId"
     let dictionaryId = "dictionarysId"
+    let setModel = SetModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,4 +69,32 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
 
 
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        defer {
+            tableView.deselectRow(at: indexPath, animated: true)
+        }
+
+        switch(indexPath.row) {
+            case 0:
+                print("array")
+            case 1:
+                performSegue(withIdentifier: setId, sender: setModel)
+            case 2:
+                print("dictionary")
+            default:
+                break
+        }
+    }
+
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let backItem = UIBarButtonItem()
+            backItem.title = "Collections"
+            navigationItem.backBarButtonItem = backItem
+
+        if segue.identifier == setId, let model = sender as? SetModel {
+            let destController = segue.destination as! SetViewController
+            destController.navigationItemNumber = getRundomNumber()
+            destController.model = model
+        }
+    }
 }

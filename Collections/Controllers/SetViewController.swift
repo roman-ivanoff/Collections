@@ -44,9 +44,9 @@ class SetViewController: UIViewController {
     }
 
     @IBAction func getAllUniqueCharactersAction(_ sender: UIButton) {
-        charactersThatDoNotMatchLabel.text = model?.getAllDifferentLetters(firstTextField.text!, secondTextField.text!)
+        uniqueCharactersLabel.text = model?.getAllUniqueDifferentLetters(firstTextField.text!, secondTextField.text!)
 
-        charactersThatDoNotMatchLabel.isHidden = false
+        uniqueCharactersLabel.isHidden = false
     }
 
     override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
