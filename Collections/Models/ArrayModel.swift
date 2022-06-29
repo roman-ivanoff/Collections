@@ -79,4 +79,48 @@ class ArrayModel {
             arrayCopy.removeSubrange(arrayCopy.count - 1000 ..< arrayCopy.count)
         })
     ]
+
+    func generateArray(onStart: @escaping () -> Void, completion: @escaping () -> Void) {
+        arrayGeneration = .execution
+        onStart()
+        queue.async(flags: .barrier) { [weak self] in
+            guard let self = self else { return }
+
+            var arr: [Int] = []
+            let arrayGenerationTime = self.measureExecutionTime {
+                for i in 0 ..< 10_000_000 {
+                    arr.append(i)
+                }
+            }
+
+            DispatchQueue.main.async {
+                self.array = arr
+                self.arrayGeneration = .finished(time: arrayGenerationTime)
+                completion()
+            }
+        }
+    }
+
+    func perform(operation: ArrayOperation, onStart: @escaping () -> Void, completion: @escaping () -> Void) {
+        operation.state = .execution
+        onStart()
+        queue.async(flags: .barrier) { [weak self] in
+            guard let self = self else { return }
+            let executionTime = self.measureExecutionTime {
+                operation.task(self.array)
+            }
+            DispatchQueue.main.async {
+                operation.state = .finished(time: executionTime)
+                completion()
+            }
+        }
+    }
+
+    func measureExecutionTime(_ block: () -> Void) -> Double {
+        let beginTime = CFAbsoluteTimeGetCurrent()
+        block()
+        let endTime = CFAbsoluteTimeGetCurrent()
+
+        return endTime - beginTime
+    }
 }
