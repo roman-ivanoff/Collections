@@ -14,6 +14,8 @@
 		FD1C1E7A286B7C3A00859ED3 /* InputRuleTextFieldDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C1E79286B7C3A00859ED3 /* InputRuleTextFieldDelegate.swift */; };
 		FD1C1E7C286B7C5A00859ED3 /* InputRuleProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C1E7B286B7C5A00859ED3 /* InputRuleProtocol.swift */; };
 		FD1C1E7E286B7C7000859ED3 /* OnlyCharactersRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1C1E7D286B7C7000859ED3 /* OnlyCharactersRule.swift */; };
+		FD7B5441286C3AAB001D14F2 /* ArrayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B5440286C3AAB001D14F2 /* ArrayModel.swift */; };
+		FD7B5443286C3DC5001D14F2 /* ArrayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B5442286C3DC5001D14F2 /* ArrayOperation.swift */; };
 		FD7D14F02865C32C0041940E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D14EF2865C32C0041940E /* AppDelegate.swift */; };
 		FD7D14F22865C32C0041940E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D14F12865C32C0041940E /* SceneDelegate.swift */; };
 		FD7D14F42865C32C0041940E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D14F32865C32C0041940E /* MainViewController.swift */; };
@@ -30,6 +32,8 @@
 		FD1C1E79286B7C3A00859ED3 /* InputRuleTextFieldDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleTextFieldDelegate.swift; sourceTree = "<group>"; };
 		FD1C1E7B286B7C5A00859ED3 /* InputRuleProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputRuleProtocol.swift; sourceTree = "<group>"; };
 		FD1C1E7D286B7C7000859ED3 /* OnlyCharactersRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnlyCharactersRule.swift; sourceTree = "<group>"; };
+		FD7B5440286C3AAB001D14F2 /* ArrayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModel.swift; sourceTree = "<group>"; };
+		FD7B5442286C3DC5001D14F2 /* ArrayOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperation.swift; sourceTree = "<group>"; };
 		FD7D14EC2865C32C0041940E /* Collections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7D14EF2865C32C0041940E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD7D14F12865C32C0041940E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -133,6 +137,8 @@
 			children = (
 				FD1C1E6F286B7A8D00859ED3 /* SetModel.swift */,
 				FD1C1E71286B7AC900859ED3 /* TextFieldModel.swift */,
+				FD7B5440286C3AAB001D14F2 /* ArrayModel.swift */,
+				FD7B5442286C3DC5001D14F2 /* ArrayOperation.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -217,7 +223,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FD7D14F42865C32C0041940E /* MainViewController.swift in Sources */,
+				FD7B5441286C3AAB001D14F2 /* ArrayModel.swift in Sources */,
 				FD1C1E74286B7B1A00859ED3 /* SetViewController.swift in Sources */,
+				FD7B5443286C3DC5001D14F2 /* ArrayOperation.swift in Sources */,
 				FD1C1E7A286B7C3A00859ED3 /* InputRuleTextFieldDelegate.swift in Sources */,
 				FD7D14F02865C32C0041940E /* AppDelegate.swift in Sources */,
 				FD1C1E7C286B7C5A00859ED3 /* InputRuleProtocol.swift in Sources */,
