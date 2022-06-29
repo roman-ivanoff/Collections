@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomCollectionViewCell" customModule="Collections" customModuleProvider="target"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="UgH-Xh-inn" customClass="CustomCollectionViewCell" customModule="iOS_task1_6_Collections" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="351" height="225"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="351" height="225"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="olY-97-hpJ">
+                        <rect key="frame" x="0.0" y="0.0" width="351" height="225"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hgj-OH-cW5">
+                                <rect key="frame" x="8" y="8" width="335" height="209"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="8YC-hP-3Kh">
+                                <rect key="frame" x="165.5" y="102.5" width="20" height="20"/>
+                            </activityIndicatorView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray4Color"/>
+                        <constraints>
+                            <constraint firstItem="Hgj-OH-cW5" firstAttribute="leading" secondItem="olY-97-hpJ" secondAttribute="leading" constant="8" id="7bJ-YT-Wia"/>
+                            <constraint firstAttribute="trailing" secondItem="Hgj-OH-cW5" secondAttribute="trailing" constant="8" id="CYs-sy-s3F"/>
+                            <constraint firstAttribute="bottom" secondItem="Hgj-OH-cW5" secondAttribute="bottom" constant="8" id="Mrt-aw-NyS"/>
+                            <constraint firstItem="Hgj-OH-cW5" firstAttribute="centerY" secondItem="olY-97-hpJ" secondAttribute="centerY" id="WPP-rx-2AR"/>
+                            <constraint firstItem="Hgj-OH-cW5" firstAttribute="centerX" secondItem="olY-97-hpJ" secondAttribute="centerX" id="fta-Hf-Y4m"/>
+                            <constraint firstItem="8YC-hP-3Kh" firstAttribute="centerX" secondItem="olY-97-hpJ" secondAttribute="centerX" id="kWX-8u-LUi"/>
+                            <constraint firstItem="8YC-hP-3Kh" firstAttribute="centerY" secondItem="olY-97-hpJ" secondAttribute="centerY" id="oqY-ij-RKe"/>
+                            <constraint firstItem="Hgj-OH-cW5" firstAttribute="top" secondItem="olY-97-hpJ" secondAttribute="top" constant="8" id="z9z-5f-Xro"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="olY-97-hpJ" secondAttribute="bottom" id="7En-Zq-xdt"/>
+                <constraint firstItem="olY-97-hpJ" firstAttribute="top" secondItem="UgH-Xh-inn" secondAttribute="top" id="C7F-Fp-4PW"/>
+                <constraint firstAttribute="trailing" secondItem="olY-97-hpJ" secondAttribute="trailing" id="YUQ-CZ-86g"/>
+                <constraint firstItem="olY-97-hpJ" firstAttribute="leading" secondItem="UgH-Xh-inn" secondAttribute="leading" id="z5W-Rf-f64"/>
+            </constraints>
+            <size key="customSize" width="351" height="225"/>
+            <connections>
+                <outlet property="indicator" destination="8YC-hP-3Kh" id="Vce-hd-cXG"/>
+                <outlet property="labelCell" destination="Hgj-OH-cW5" id="6cs-of-wfA"/>
+                <outlet property="viewCell" destination="olY-97-hpJ" id="xVW-KO-5SW"/>
+            </connections>
+            <point key="canvasLocation" x="144.20289855072465" y="70.647321428571431"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGray4Color">
+            <color red="0.81960784313725488" green="0.81960784313725488" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
