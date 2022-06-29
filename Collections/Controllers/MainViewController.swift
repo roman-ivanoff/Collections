@@ -13,6 +13,7 @@ class MainViewController: UIViewController {
     let setId = "setsId"
     let arrayId = "arraysId"
     let dictionaryId = "dictionarysId"
+    let arrayModel = ArrayModel()
     let setModel = SetModel()
 
     override func viewDidLoad() {
@@ -76,7 +77,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
 
         switch(indexPath.row) {
             case 0:
-                print("array")
+                performSegue(withIdentifier: arrayId, sender: arrayModel)
             case 1:
                 performSegue(withIdentifier: setId, sender: setModel)
             case 2:
@@ -91,7 +92,11 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             backItem.title = "Collections"
             navigationItem.backBarButtonItem = backItem
 
-        if segue.identifier == setId, let model = sender as? SetModel {
+        if segue.identifier == arrayId, let model = sender as? ArrayModel {
+            let destController = segue.destination as! ArrayViewController
+            destController.navigationItemNumber = getRundomNumber()
+            destController.model = model
+        } else if segue.identifier == setId, let model = sender as? SetModel {
             let destController = segue.destination as! SetViewController
             destController.navigationItemNumber = getRundomNumber()
             destController.model = model
