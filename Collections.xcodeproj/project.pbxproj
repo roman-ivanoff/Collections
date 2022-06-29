@@ -17,6 +17,7 @@
 		FD7B5441286C3AAB001D14F2 /* ArrayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B5440286C3AAB001D14F2 /* ArrayModel.swift */; };
 		FD7B5443286C3DC5001D14F2 /* ArrayOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B5442286C3DC5001D14F2 /* ArrayOperation.swift */; };
 		FD7B5445286C3E5C001D14F2 /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7B5444286C3E5C001D14F2 /* ArrayViewController.swift */; };
+		FD7B5447286C3E81001D14F2 /* Array.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7B5446286C3E81001D14F2 /* Array.storyboard */; };
 		FD7D14F02865C32C0041940E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D14EF2865C32C0041940E /* AppDelegate.swift */; };
 		FD7D14F22865C32C0041940E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D14F12865C32C0041940E /* SceneDelegate.swift */; };
 		FD7D14F42865C32C0041940E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD7D14F32865C32C0041940E /* MainViewController.swift */; };
@@ -36,6 +37,7 @@
 		FD7B5440286C3AAB001D14F2 /* ArrayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModel.swift; sourceTree = "<group>"; };
 		FD7B5442286C3DC5001D14F2 /* ArrayOperation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayOperation.swift; sourceTree = "<group>"; };
 		FD7B5444286C3E5C001D14F2 /* ArrayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayViewController.swift; sourceTree = "<group>"; };
+		FD7B5446286C3E81001D14F2 /* Array.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Array.storyboard; sourceTree = "<group>"; };
 		FD7D14EC2865C32C0041940E /* Collections.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Collections.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD7D14EF2865C32C0041940E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FD7D14F12865C32C0041940E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			children = (
 				FD7D14F52865C32C0041940E /* Main.storyboard */,
 				FD1C1E75286B7B5100859ED3 /* Set.storyboard */,
+				FD7B5446286C3E81001D14F2 /* Array.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 				FD1C1E76286B7B5100859ED3 /* Set.storyboard in Resources */,
 				FD7D14F92865C3300041940E /* Assets.xcassets in Resources */,
 				FD7D14F72865C32C0041940E /* Main.storyboard in Resources */,
+				FD7B5447286C3E81001D14F2 /* Array.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
