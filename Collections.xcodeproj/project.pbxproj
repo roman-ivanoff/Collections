@@ -28,6 +28,7 @@
 		FD7D14FC2865C3300041940E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7D14FA2865C3300041940E /* LaunchScreen.storyboard */; };
 		FDC9D9AC286D8F190047C753 /* DictionaryOpration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AB286D8F190047C753 /* DictionaryOpration.swift */; };
 		FDC9D9AE286D8F4B0047C753 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */; };
+		FDC9D9B0286D8F720047C753 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		FD7D14FD2865C3300041940E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC9D9AB286D8F190047C753 /* DictionaryOpration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryOpration.swift; sourceTree = "<group>"; };
 		FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
+		FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				FD7D14F32865C32C0041940E /* MainViewController.swift */,
 				FD1C1E73286B7B1A00859ED3 /* SetViewController.swift */,
 				FD7B5444286C3E5C001D14F2 /* ArrayViewController.swift */,
+				FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 				FD1C1E70286B7A8D00859ED3 /* SetModel.swift in Sources */,
 				FD1C1E72286B7AC900859ED3 /* TextFieldModel.swift in Sources */,
 				FD1C1E7E286B7C7000859ED3 /* OnlyCharactersRule.swift in Sources */,
+				FDC9D9B0286D8F720047C753 /* DictionaryViewController.swift in Sources */,
 				FD7D14F22865C32C0041940E /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
