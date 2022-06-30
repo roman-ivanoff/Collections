@@ -27,6 +27,7 @@
 		FD7D14F92865C3300041940E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD7D14F82865C3300041940E /* Assets.xcassets */; };
 		FD7D14FC2865C3300041940E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD7D14FA2865C3300041940E /* LaunchScreen.storyboard */; };
 		FDC9D9AC286D8F190047C753 /* DictionaryOpration.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AB286D8F190047C753 /* DictionaryOpration.swift */; };
+		FDC9D9AE286D8F4B0047C753 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		FD7D14FB2865C3300041940E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD7D14FD2865C3300041940E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FDC9D9AB286D8F190047C753 /* DictionaryOpration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryOpration.swift; sourceTree = "<group>"; };
+		FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +154,7 @@
 				FD7B5440286C3AAB001D14F2 /* ArrayModel.swift */,
 				FD7B5442286C3DC5001D14F2 /* ArrayOperation.swift */,
 				FDC9D9AB286D8F190047C753 /* DictionaryOpration.swift */,
+				FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 				FD7B5441286C3AAB001D14F2 /* ArrayModel.swift in Sources */,
 				FD7B5445286C3E5C001D14F2 /* ArrayViewController.swift in Sources */,
 				FD7B544B286C3F56001D14F2 /* CustomCollectionViewCell.swift in Sources */,
+				FDC9D9AE286D8F4B0047C753 /* DictionaryModel.swift in Sources */,
 				FD1C1E74286B7B1A00859ED3 /* SetViewController.swift in Sources */,
 				FD7B5443286C3DC5001D14F2 /* ArrayOperation.swift in Sources */,
 				FD1C1E7A286B7C3A00859ED3 /* InputRuleTextFieldDelegate.swift in Sources */,
