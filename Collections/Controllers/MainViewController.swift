@@ -15,6 +15,7 @@ class MainViewController: UIViewController {
     let dictionaryId = "dictionarysId"
     let arrayModel = ArrayModel()
     let setModel = SetModel()
+    let dictionaryModel = DictionaryModel()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -81,7 +82,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             case 1:
                 performSegue(withIdentifier: setId, sender: setModel)
             case 2:
-                print("dictionary")
+                performSegue(withIdentifier: dictionaryId, sender: dictionaryModel)
             default:
                 break
         }
@@ -98,6 +99,10 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
             destController.model = model
         } else if segue.identifier == setId, let model = sender as? SetModel {
             let destController = segue.destination as! SetViewController
+            destController.navigationItemNumber = getRundomNumber()
+            destController.model = model
+        } else if segue.identifier == dictionaryId, let model = sender as? DictionaryModel {
+            let destController = segue.destination as! DictionaryViewController
             destController.navigationItemNumber = getRundomNumber()
             destController.model = model
         }
