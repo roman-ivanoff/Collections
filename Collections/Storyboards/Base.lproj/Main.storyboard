@@ -49,6 +49,7 @@
                         <outlet property="tableView" destination="swZ-jg-YHC" id="7aJ-Ll-qcD"/>
                         <segue destination="XYs-iu-n10" kind="show" identifier="setsId" id="6zT-YL-kf9"/>
                         <segue destination="eQ1-Bl-Rd0" kind="show" identifier="arraysId" id="Tb6-nQ-6Uf"/>
+                        <segue destination="Jgd-Oe-Vew" kind="show" identifier="dictionarysId" id="Dg9-B1-5oX"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -73,7 +74,17 @@
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4xn-kk-9Jg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1772" y="56"/>
+            <point key="canvasLocation" x="1700" y="-58"/>
+        </scene>
+        <!--Dictionary-->
+        <scene sceneID="nfW-B2-0FL">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Dictionary" id="Jgd-Oe-Vew" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="yTJ-iq-Lqf"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3pq-dA-bfe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1721" y="-27"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="CZO-l7-xac">
