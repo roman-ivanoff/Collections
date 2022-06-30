@@ -11,6 +11,8 @@ class DictionaryViewController: UIViewController {
     var navigationItemNumber: Int!
     var model: DictionaryModel!
     let numberOfSections = 2
+    @IBOutlet weak var indicator: UIActivityIndicatorView!
+    @IBOutlet weak var collectionView: UICollectionView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
