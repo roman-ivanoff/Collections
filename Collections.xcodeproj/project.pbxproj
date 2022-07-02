@@ -33,6 +33,7 @@
 		FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1996287012B500596E85 /* ArrayModelTests.swift */; };
 		FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC19982870138B00596E85 /* DictionaryModelTests.swift */; };
 		FDFC199B287013CB00596E85 /* SetModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC199A287013CB00596E85 /* SetModelTests.swift */; };
+		FDFC199D2870140400596E85 /* TestPerformanceArrayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC199C2870140400596E85 /* TestPerformanceArrayModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -75,6 +76,7 @@
 		FDFC1996287012B500596E85 /* ArrayModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModelTests.swift; sourceTree = "<group>"; };
 		FDFC19982870138B00596E85 /* DictionaryModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModelTests.swift; sourceTree = "<group>"; };
 		FDFC199A287013CB00596E85 /* SetModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModelTests.swift; sourceTree = "<group>"; };
+		FDFC199C2870140400596E85 /* TestPerformanceArrayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPerformanceArrayModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 		FD7D14E32865C32C0041940E = {
 			isa = PBXGroup;
 			children = (
+				FDFC199C2870140400596E85 /* TestPerformanceArrayModel.swift */,
 				FDFC199A287013CB00596E85 /* SetModelTests.swift */,
 				FDFC19982870138B00596E85 /* DictionaryModelTests.swift */,
 				FDFC1996287012B500596E85 /* ArrayModelTests.swift */,
@@ -339,6 +342,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDFC199D2870140400596E85 /* TestPerformanceArrayModel.swift in Sources */,
 				FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */,
 				FDFC199B287013CB00596E85 /* SetModelTests.swift in Sources */,
 				FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */,
