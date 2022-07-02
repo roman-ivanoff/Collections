@@ -34,6 +34,7 @@
 		FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC19982870138B00596E85 /* DictionaryModelTests.swift */; };
 		FDFC199B287013CB00596E85 /* SetModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC199A287013CB00596E85 /* SetModelTests.swift */; };
 		FDFC199D2870140400596E85 /* TestPerformanceArrayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC199C2870140400596E85 /* TestPerformanceArrayModel.swift */; };
+		FDFC199F2870143D00596E85 /* TestPerformanceDictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC199E2870143D00596E85 /* TestPerformanceDictionaryModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		FDFC19982870138B00596E85 /* DictionaryModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModelTests.swift; sourceTree = "<group>"; };
 		FDFC199A287013CB00596E85 /* SetModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModelTests.swift; sourceTree = "<group>"; };
 		FDFC199C2870140400596E85 /* TestPerformanceArrayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPerformanceArrayModel.swift; sourceTree = "<group>"; };
+		FDFC199E2870143D00596E85 /* TestPerformanceDictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestPerformanceDictionaryModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		FD7D14E32865C32C0041940E = {
 			isa = PBXGroup;
 			children = (
+				FDFC199E2870143D00596E85 /* TestPerformanceDictionaryModel.swift */,
 				FDFC199C2870140400596E85 /* TestPerformanceArrayModel.swift */,
 				FDFC199A287013CB00596E85 /* SetModelTests.swift */,
 				FDFC19982870138B00596E85 /* DictionaryModelTests.swift */,
@@ -346,6 +349,7 @@
 				FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */,
 				FDFC199B287013CB00596E85 /* SetModelTests.swift in Sources */,
 				FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */,
+				FDFC199F2870143D00596E85 /* TestPerformanceDictionaryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
