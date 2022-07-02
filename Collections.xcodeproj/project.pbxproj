@@ -31,6 +31,7 @@
 		FDC9D9B0286D8F720047C753 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */; };
 		FDC9D9B2286D8FB30047C753 /* Dictionary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC9D9B1286D8FB30047C753 /* Dictionary.storyboard */; };
 		FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1996287012B500596E85 /* ArrayModelTests.swift */; };
+		FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC19982870138B00596E85 /* DictionaryModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +72,7 @@
 		FDC9D9B1286D8FB30047C753 /* Dictionary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dictionary.storyboard; sourceTree = "<group>"; };
 		FDFC198D2870128B00596E85 /* CollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFC1996287012B500596E85 /* ArrayModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModelTests.swift; sourceTree = "<group>"; };
+		FDFC19982870138B00596E85 /* DictionaryModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 		FD7D14E32865C32C0041940E = {
 			isa = PBXGroup;
 			children = (
+				FDFC19982870138B00596E85 /* DictionaryModelTests.swift */,
 				FDFC1996287012B500596E85 /* ArrayModelTests.swift */,
 				FD7D14EE2865C32C0041940E /* Collections */,
 				FDFC198E2870128B00596E85 /* CollectionsTests */,
@@ -334,6 +337,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */,
+				FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
