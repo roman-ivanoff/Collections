@@ -30,7 +30,18 @@
 		FDC9D9AE286D8F4B0047C753 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */; };
 		FDC9D9B0286D8F720047C753 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */; };
 		FDC9D9B2286D8FB30047C753 /* Dictionary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC9D9B1286D8FB30047C753 /* Dictionary.storyboard */; };
+		FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1996287012B500596E85 /* ArrayModelTests.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDFC19912870128B00596E85 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7D14E42865C32C0041940E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7D14EB2865C32C0041940E;
+			remoteInfo = Collections;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		FD1C1E6F286B7A8D00859ED3 /* SetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SetModel.swift; sourceTree = "<group>"; };
@@ -58,10 +69,19 @@
 		FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
 		FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		FDC9D9B1286D8FB30047C753 /* Dictionary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dictionary.storyboard; sourceTree = "<group>"; };
+		FDFC198D2870128B00596E85 /* CollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDFC1996287012B500596E85 /* ArrayModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		FD7D14E92865C32C0041940E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFC198A2870128B00596E85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -91,7 +111,9 @@
 		FD7D14E32865C32C0041940E = {
 			isa = PBXGroup;
 			children = (
+				FDFC1996287012B500596E85 /* ArrayModelTests.swift */,
 				FD7D14EE2865C32C0041940E /* Collections */,
+				FDFC198E2870128B00596E85 /* CollectionsTests */,
 				FD7D14ED2865C32C0041940E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +122,7 @@
 			isa = PBXGroup;
 			children = (
 				FD7D14EC2865C32C0041940E /* Collections.app */,
+				FDFC198D2870128B00596E85 /* CollectionsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -174,6 +197,13 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		FDFC198E2870128B00596E85 /* CollectionsTests */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CollectionsTests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -194,6 +224,24 @@
 			productReference = FD7D14EC2865C32C0041940E /* Collections.app */;
 			productType = "com.apple.product-type.application";
 		};
+		FDFC198C2870128B00596E85 /* CollectionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFC19952870128B00596E85 /* Build configuration list for PBXNativeTarget "CollectionsTests" */;
+			buildPhases = (
+				FDFC19892870128B00596E85 /* Sources */,
+				FDFC198A2870128B00596E85 /* Frameworks */,
+				FDFC198B2870128B00596E85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDFC19922870128B00596E85 /* PBXTargetDependency */,
+			);
+			name = CollectionsTests;
+			productName = CollectionsTests;
+			productReference = FDFC198D2870128B00596E85 /* CollectionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -206,6 +254,11 @@
 				TargetAttributes = {
 					FD7D14EB2865C32C0041940E = {
 						CreatedOnToolsVersion = 13.4.1;
+					};
+					FDFC198C2870128B00596E85 = {
+						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
+						TestTargetID = FD7D14EB2865C32C0041940E;
 					};
 				};
 			};
@@ -223,6 +276,7 @@
 			projectRoot = "";
 			targets = (
 				FD7D14EB2865C32C0041940E /* Collections */,
+				FDFC198C2870128B00596E85 /* CollectionsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,6 +293,13 @@
 				FD7D14F72865C32C0041940E /* Main.storyboard in Resources */,
 				FD7B5447286C3E81001D14F2 /* Array.storyboard in Resources */,
 				FDC9D9B2286D8FB30047C753 /* Dictionary.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDFC198B2870128B00596E85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +329,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDFC19892870128B00596E85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDFC19922870128B00596E85 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7D14EB2865C32C0041940E /* Collections */;
+			targetProxy = FDFC19912870128B00596E85 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		FD7D14F52865C32C0041940E /* Main.storyboard */ = {
@@ -460,6 +537,53 @@
 			};
 			name = Release;
 		};
+		FDFC19932870128B00596E85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanIvanov.CollectionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collections.app/Collections";
+			};
+			name = Debug;
+		};
+		FDFC19942870128B00596E85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanIvanov.CollectionsTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Collections.app/Collections";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -477,6 +601,15 @@
 			buildConfigurations = (
 				FD7D15012865C3300041940E /* Debug */,
 				FD7D15022865C3300041940E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFC19952870128B00596E85 /* Build configuration list for PBXNativeTarget "CollectionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDFC19932870128B00596E85 /* Debug */,
+				FDFC19942870128B00596E85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
