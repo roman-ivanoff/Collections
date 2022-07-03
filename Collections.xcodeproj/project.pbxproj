@@ -30,6 +30,8 @@
 		FDC9D9AE286D8F4B0047C753 /* DictionaryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */; };
 		FDC9D9B0286D8F720047C753 /* DictionaryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */; };
 		FDC9D9B2286D8FB30047C753 /* Dictionary.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDC9D9B1286D8FB30047C753 /* Dictionary.storyboard */; };
+		FDDC894C2871A64E0055EA8A /* CollectionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC894B2871A64E0055EA8A /* CollectionsUITests.swift */; };
+		FDDC894E2871A64E0055EA8A /* CollectionsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDDC894D2871A64E0055EA8A /* CollectionsUITestsLaunchTests.swift */; };
 		FDFC1997287012B500596E85 /* ArrayModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC1996287012B500596E85 /* ArrayModelTests.swift */; };
 		FDFC19992870138B00596E85 /* DictionaryModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC19982870138B00596E85 /* DictionaryModelTests.swift */; };
 		FDFC199B287013CB00596E85 /* SetModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDFC199A287013CB00596E85 /* SetModelTests.swift */; };
@@ -38,6 +40,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		FDDC894F2871A64E0055EA8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD7D14E42865C32C0041940E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD7D14EB2865C32C0041940E;
+			remoteInfo = Collections;
+		};
 		FDFC19912870128B00596E85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = FD7D14E42865C32C0041940E /* Project object */;
@@ -73,6 +82,9 @@
 		FDC9D9AD286D8F4B0047C753 /* DictionaryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModel.swift; sourceTree = "<group>"; };
 		FDC9D9AF286D8F720047C753 /* DictionaryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryViewController.swift; sourceTree = "<group>"; };
 		FDC9D9B1286D8FB30047C753 /* Dictionary.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Dictionary.storyboard; sourceTree = "<group>"; };
+		FDDC89492871A64E0055EA8A /* CollectionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDDC894B2871A64E0055EA8A /* CollectionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsUITests.swift; sourceTree = "<group>"; };
+		FDDC894D2871A64E0055EA8A /* CollectionsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		FDFC198D2870128B00596E85 /* CollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDFC1996287012B500596E85 /* ArrayModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayModelTests.swift; sourceTree = "<group>"; };
 		FDFC19982870138B00596E85 /* DictionaryModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DictionaryModelTests.swift; sourceTree = "<group>"; };
@@ -83,6 +95,13 @@
 
 /* Begin PBXFrameworksBuildPhase section */
 		FD7D14E92865C32C0041940E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC89462871A64E0055EA8A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -126,6 +145,7 @@
 				FDFC1996287012B500596E85 /* ArrayModelTests.swift */,
 				FD7D14EE2865C32C0041940E /* Collections */,
 				FDFC198E2870128B00596E85 /* CollectionsTests */,
+				FDDC894A2871A64E0055EA8A /* CollectionsUITests */,
 				FD7D14ED2865C32C0041940E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -135,6 +155,7 @@
 			children = (
 				FD7D14EC2865C32C0041940E /* Collections.app */,
 				FDFC198D2870128B00596E85 /* CollectionsTests.xctest */,
+				FDDC89492871A64E0055EA8A /* CollectionsUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -209,6 +230,15 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		FDDC894A2871A64E0055EA8A /* CollectionsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FDDC894B2871A64E0055EA8A /* CollectionsUITests.swift */,
+				FDDC894D2871A64E0055EA8A /* CollectionsUITestsLaunchTests.swift */,
+			);
+			path = CollectionsUITests;
+			sourceTree = "<group>";
+		};
 		FDFC198E2870128B00596E85 /* CollectionsTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -235,6 +265,24 @@
 			productName = Collections;
 			productReference = FD7D14EC2865C32C0041940E /* Collections.app */;
 			productType = "com.apple.product-type.application";
+		};
+		FDDC89482871A64E0055EA8A /* CollectionsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDDC89532871A64E0055EA8A /* Build configuration list for PBXNativeTarget "CollectionsUITests" */;
+			buildPhases = (
+				FDDC89452871A64E0055EA8A /* Sources */,
+				FDDC89462871A64E0055EA8A /* Frameworks */,
+				FDDC89472871A64E0055EA8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDDC89502871A64E0055EA8A /* PBXTargetDependency */,
+			);
+			name = CollectionsUITests;
+			productName = CollectionsUITests;
+			productReference = FDDC89492871A64E0055EA8A /* CollectionsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 		FDFC198C2870128B00596E85 /* CollectionsTests */ = {
 			isa = PBXNativeTarget;
@@ -267,6 +315,10 @@
 					FD7D14EB2865C32C0041940E = {
 						CreatedOnToolsVersion = 13.4.1;
 					};
+					FDDC89482871A64E0055EA8A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = FD7D14EB2865C32C0041940E;
+					};
 					FDFC198C2870128B00596E85 = {
 						CreatedOnToolsVersion = 13.4.1;
 						LastSwiftMigration = 1340;
@@ -289,6 +341,7 @@
 			targets = (
 				FD7D14EB2865C32C0041940E /* Collections */,
 				FDFC198C2870128B00596E85 /* CollectionsTests */,
+				FDDC89482871A64E0055EA8A /* CollectionsUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -305,6 +358,13 @@
 				FD7D14F72865C32C0041940E /* Main.storyboard in Resources */,
 				FD7B5447286C3E81001D14F2 /* Array.storyboard in Resources */,
 				FDC9D9B2286D8FB30047C753 /* Dictionary.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDDC89472871A64E0055EA8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +401,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FDDC89452871A64E0055EA8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDDC894E2871A64E0055EA8A /* CollectionsUITestsLaunchTests.swift in Sources */,
+				FDDC894C2871A64E0055EA8A /* CollectionsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FDFC19892870128B00596E85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -356,6 +425,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		FDDC89502871A64E0055EA8A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD7D14EB2865C32C0041940E /* Collections */;
+			targetProxy = FDDC894F2871A64E0055EA8A /* PBXContainerItemProxy */;
+		};
 		FDFC19922870128B00596E85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = FD7D14EB2865C32C0041940E /* Collections */;
@@ -553,6 +627,38 @@
 			};
 			name = Release;
 		};
+		FDDC89512871A64E0055EA8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanIvanov.CollectionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Collections;
+			};
+			name = Debug;
+		};
+		FDDC89522871A64E0055EA8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.RomanIvanov.CollectionsUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Collections;
+			};
+			name = Release;
+		};
 		FDFC19932870128B00596E85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -617,6 +723,15 @@
 			buildConfigurations = (
 				FD7D15012865C3300041940E /* Debug */,
 				FD7D15022865C3300041940E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDDC89532871A64E0055EA8A /* Build configuration list for PBXNativeTarget "CollectionsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDDC89512871A64E0055EA8A /* Debug */,
+				FDDC89522871A64E0055EA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
